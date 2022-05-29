@@ -1,0 +1,22 @@
+# vim: set fenc=utf-8 ft=dosini:
+
+#project
+name=Python LinkedIn Learning
+
+[file-run]
+command:c,cpp="%<".out
+command:go="%<"
+command:python=python "%"
+command:javascript=node "%"
+command:sh=sh "%"
+command:lua=lua "%"
+command:perl=perl "%"
+command:ruby=ruby "%"
+output=terminal:bottom
+; cwd=%:p:h
+mapping=f6
+
+; # project-wide search, ask user input keyword
+; [grep-word]
+; command=rg -n --no-heading --color never "$(?keyword)" "<root>" -tcpp -tc -tpy -tvim -tgo -tasm -tlua -tjs
+; errorformat=%f:%l:%m
