@@ -1,7 +1,23 @@
 #!/usr/bin/env python3
-# Copyright 2009-2017 BHG http://bw.org/
+import sys
+
 
 def main():
-    print('Hello, World.')
+    try:
+        # x = int("foo")
+        x = 5 / 0
+    except ValueError:
+        print("I caught a ValueError")
+    # except ZeroDivisionError:
+    #     print("Don't divide by zero")
+    except:
+        print(f"Unknown error: {sys.exc_info()[1]}")
+    else:
+        print("Good job!")
+        print(x)
 
-if __name__ == '__main__': main()
+    print("Execution continues here ...")
+
+
+if __name__ == "__main__":
+    main()
