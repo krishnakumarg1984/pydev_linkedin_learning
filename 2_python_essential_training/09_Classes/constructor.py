@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
-# Copyright 2009-2017 BHG http://bw.org/
+
 
 class Animal:
-    def __init__(self, type, name, sound):
-        self._type = type
-        self._name = name
-        self._sound = sound
+    # def __init__(self, kind, name, sound):
+    def __init__(self, **kwargs):
+        self._kind = kwargs["kind"] if "kind" in kwargs else "default_kind"
+        self._name = kwargs["name"] if "name" in kwargs else "default_name"
+        self._sound = kwargs["sound"] if "sound" in kwargs else "default_sound"
 
-    def type(self):
-        return self._type
+    def kind(self):
+        return self._kind
 
     def name(self):
         return self._name
@@ -16,17 +17,22 @@ class Animal:
     def sound(self):
         return self._sound
 
+
 def print_animal(o):
     if not isinstance(o, Animal):
-        raise TypeError('print_animal(): requires an Animal')
-    print('The {} is named "{}" and says "{}".'.format(o.type(), o.name(), o.sound()))
+        raise kindError("print_animal(): requires an Animal")
+    print(f"The {o.kind()} is named {o.name()} and says {o.sound()}.")
 
 
 def main():
-    a0 = Animal('kitten', 'fluffy', 'rwar')
-    a1 = Animal('duck', 'donald', 'quack')
+    # a0 = Animal("kitten", "fluffy", "rwar")
+    a0 = Animal(kind="kitten", name="fluffy", sound="rwar")
+    a1 = Animal(kind="duck", name="donald", sound="quack")
     print_animal(a0)
     print_animal(a1)
-    print_animal(Animal('velociraptor', 'veronica', 'hello'))
+    print_animal(Animal(kind="velociraptor", name="veronica", sound="hello"))
+    print_animal(Animal())
 
-if __name__ == '__main__': main()
+
+if __name__ == "__main__":
+    main()
