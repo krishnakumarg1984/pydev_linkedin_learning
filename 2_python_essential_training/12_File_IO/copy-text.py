@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
-# Copyright 2009-2017 BHG http://bw.org/
+
 
 def main():
-    infile = open('lines.txt', 'rt')
-    outfile = open('lines-copy.txt', 'wt')
+    infile = open("lines.txt", "rt")  # 'rt' is the default
+    outfile = open("lines-copy.txt", "wt")
     for line in infile:
-        print(line.rstrip(), file=outfile)
-        print('.', end='', flush=True)
+        # the print function, I'm able to strip these line endings, and rewrite the line endings with the default line endings for this operating system, which print does by default, and that way, if my input file is from another operating system with different line endings, I'm actually serving to translate those line endings into the correct one for this operating system, so it's important to know that distinction.
+        # print(line.rstrip(), file=outfile)
+        outfile.writelines(line)
+        print(".", end="", flush=True)
     outfile.close()
-    print('\ndone.')
+    infile.close()
+    print("\ndone.")
 
-if __name__ == '__main__': main()
+
+if __name__ == "__main__":
+    main()

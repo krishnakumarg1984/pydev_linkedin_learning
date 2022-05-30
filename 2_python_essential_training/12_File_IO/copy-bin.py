@@ -1,16 +1,20 @@
 #!/usr/bin/env python3
-# Copyright 2009-2017 BHG http://bw.org/
+
 
 def main():
-    infile = open('berlin.jpg', 'rb')
-    outfile = open('berlin-copy.jpg', 'wb')
+    infile = open("berlin.jpg", "rb")
+    outfile = open("berlin-copy.jpg", "wb")
     while True:
-        buf = infile.read(10240)
+        buf = infile.read(10240)  # 10kb (we don't know how big the file is)
         if buf:
             outfile.write(buf)
-            print('.', end='', flush=True)
-        else: break
+            print(".", end="", flush=True)
+        else:
+            break
     outfile.close()
-    print('\ndone.')
+    infile.close()
+    print("\ndone.")
 
-if __name__ == '__main__': main()
+
+if __name__ == "__main__":
+    main()
