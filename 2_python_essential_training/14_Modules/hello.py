@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
-# Copyright 2009-2017 BHG http://bw.org/
+# https://docs.python.org/3.12/library/index.html
+
 
 def main():
-    print('Hello, World.')
+    print("Hello, World.")
 
-if __name__ == '__main__': main()
+
+if __name__ == "__main__":
+    main()
