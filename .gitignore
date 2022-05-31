@@ -163,3 +163,4 @@ cython_debug/
 !*.jpg
 *-copy.txt
 jurl/
+!.vimrc.lua
