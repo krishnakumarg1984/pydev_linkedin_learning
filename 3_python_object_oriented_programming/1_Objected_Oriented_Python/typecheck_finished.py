@@ -31,4 +31,5 @@ print(isinstance(b1, Book))
 print(isinstance(n1, Newspaper))
 
 print(isinstance(n2, Book))
-print(isinstance(n2, object))
+
+print(isinstance(n2, object))  # everything is a subclass of the object class
