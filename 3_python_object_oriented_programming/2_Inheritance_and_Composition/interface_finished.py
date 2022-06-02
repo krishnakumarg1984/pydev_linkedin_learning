@@ -1,7 +1,7 @@
 # Python Object Oriented Programming by Joe Marini course example
 # Using Abstract Base Classes to implement interfaces
-
-from abc import ABC, abstractmethod
+from abc import ABC
+from abc import abstractmethod
 
 
 class GraphicShape(ABC):
@@ -24,10 +24,10 @@ class Circle(GraphicShape, JSONify):
         self.radius = radius
 
     def calcArea(self):
-        return 3.14 * (self.radius ** 2)
+        return 3.14 * (self.radius**2)
 
     def toJSON(self):
-        return f"{{ \"square\": {str(self.calcArea())} }}"
+        return f'{{ "square": {str(self.calcArea())} }}'
 
 
 c = Circle(10)
