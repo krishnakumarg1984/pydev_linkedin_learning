@@ -1,5 +1,6 @@
 # Python Object Oriented Programming by Joe Marini course example
 # Using the __str__ and __repr__ magic methods
+# https://docs.python.org/3.12/reference/datamodel.html
 
 
 class Book:
@@ -22,6 +23,7 @@ b3 = Book("War and Peace", "Leo Tolstoy", 39.95)
 b4 = Book("To Kill a Mockingbird", "Harper Lee", 24.95)
 
 # TODO: Check for equality
+print(b1 == b3)
 
 
 # TODO: Check for greater and lesser value

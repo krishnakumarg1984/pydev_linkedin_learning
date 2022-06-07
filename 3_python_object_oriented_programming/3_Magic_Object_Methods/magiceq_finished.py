@@ -1,5 +1,6 @@
 # Python Object Oriented Programming by Joe Marini course example
 # Using the __str__ and __repr__ magic methods
+# https://docs.python.org/3.12/reference/datamodel.html
 
 
 class Book:
@@ -14,9 +15,11 @@ class Book:
         if not isinstance(value, Book):
             raise ValueError("Can't compare book to non-book type")
 
-        return (self.title == value.title and
-                self.author == value.author and
-                self.price == value.price)
+        return (
+            self.title == value.title
+            and self.author == value.author
+            and self.price == value.price
+        )
 
     # the __ge__ establishes >= relationship with another obj
     def __ge__(self, value):

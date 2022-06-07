@@ -10,15 +10,13 @@ class Book:
         self.price = price
         self._discount = 0.1
 
-    # The __str__ function is used to return a user-friendly string
-    # representation of the object
+    # The __str__ function is used to return a user-friendly string representation of the object
     def __str__(self):
         return f"{self.title} by {self.author}, costs {self.price}"
 
-    # Called when an attribute is retrieved. Be aware that you can't
-    # directly access the attr name otherwise a recursive loop is created
+    # Called when an attribute is retrieved. Be aware that you can't directly access the attr name otherwise a recursive loop is created
     def __getattribute__(self, name):
-        if (name == "price"):
+        if name == "price":
             p = super().__getattribute__("price")
             d = super().__getattribute__("_discount")
             return p - (p * d)
@@ -27,8 +25,9 @@ class Book:
     # __setattr__ called when an attribute value is set. Don't set the attr
     # directly here otherwise a recursive loop causes a crash
     def __setattr__(self, name, value):
-        if (name == "price"):
-            if type(value) is not float:
+        if name == "price":
+            # if type(value) is not float:
+            if not isinstance(value, float):
                 raise ValueError("The 'price' attribute must be a float")
         return super().__setattr__(name, value)
 

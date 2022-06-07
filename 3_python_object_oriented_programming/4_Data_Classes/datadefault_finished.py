@@ -1,8 +1,8 @@
 # Python Object Oriented Programming by Joe Marini course example
 # implementing default values in data classes
-
-from dataclasses import dataclass, field
 import random
+from dataclasses import dataclass
+from dataclasses import field
 
 
 def price_func():
