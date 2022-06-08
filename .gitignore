@@ -164,3 +164,4 @@ cython_debug/
 *-copy.txt
 jurl/
 !.vimrc.lua
+scores.txt
