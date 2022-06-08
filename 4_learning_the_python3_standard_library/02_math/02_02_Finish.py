@@ -9,8 +9,8 @@ print(math.sqrt(64))
 print(math.gcd(52, 8))
 print(math.gcd(8, 52))
 
-print(8/52)
-print(2/13)
+print(8 / 52)
+print(2 / 13)
 
 # Degrees and Radians
 print(math.radians(360))

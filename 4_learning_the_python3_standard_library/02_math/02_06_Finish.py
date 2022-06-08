@@ -2,7 +2,8 @@
 import itertools
 
 # Permutations: Order matters - some copies with same inputs but in different order
-election = {1: "Barb", 2:"Karen", 3:"Erin"}
+election = {1: "Barb", 2: "Karen", 3: "Erin"}
+
 for p in itertools.permutations(election):
     print(p)
 
@@ -11,5 +12,9 @@ for p1 in itertools.permutations(election.values()):
 
 # Combinations: Order does not matter - no copies with same inputs
 colorsForPainting = ["Red", "Blue", "Purple", "Orange", "Yellow", "Pink"]
-for c in itertools.combinations(colorsForPainting, 3):
+
+# for c in itertools.combinations(colorsForPainting, 3):
+# for c in itertools.combinations(colorsForPainting, 4):
+# for c in itertools.combinations(colorsForPainting, 2):
+for c in itertools.combinations(colorsForPainting, 1):
     print(c)

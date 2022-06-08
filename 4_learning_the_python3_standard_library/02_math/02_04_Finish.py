@@ -1,6 +1,6 @@
 # Statistics Module
-import statistics
 import math
+import statistics
 
 agesData = [10, 13, 14, 12, 11, 10, 11, 10, 15]
 

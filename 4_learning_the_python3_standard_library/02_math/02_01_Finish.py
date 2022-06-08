@@ -1,5 +1,4 @@
 # Math Module Part I
-
 import math
 
 # Constants
