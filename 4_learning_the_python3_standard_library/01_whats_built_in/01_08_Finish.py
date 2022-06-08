@@ -1,24 +1,29 @@
 r = range(0, 30)
 print(type(r))
 print(type(10))
-print(type('a'))
+print(type("a"))
 print(type("Hi there"))
+
 
 class Car:
     pass
 
-class Truck():
+
+class Truck(Car):
     pass
+
 
 c = Car()
 convert = Car()
 t = Truck()
 print(type(c))
+print(type(convert))
 print(type(t))
 print(type(c) == type(t))
 print(type(c) == type(convert))
 
 print(isinstance(c, Car))
+print(isinstance(t, Truck))
 print(isinstance(t, Car))
 
 if isinstance(r, range):

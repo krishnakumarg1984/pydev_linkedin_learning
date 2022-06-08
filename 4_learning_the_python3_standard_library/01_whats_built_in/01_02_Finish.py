@@ -1,14 +1,10 @@
 # Python Comparison Operators
-
 # TIPS:
 # == --> is equal to
 # <= --> is less than or equal to
 # >= --> is greater than or equal to
 # < --> is less than
 # > --> is greater than
-
-
-
 # < --> is less than
 print(10 < 75)
 print(75 < 10)
@@ -29,8 +25,8 @@ if mouse < kitten and mouse < tiger:
     print("The mouse weighs the least")
 
 
-#False --> 0
-#True --> 1
+# False --> 0
+# True --> 1
 # > --> is greater than
 print(False > True)
 
@@ -41,4 +37,4 @@ print("Jennifer" > "Jenny")
 
 # A - Z --> 1 - 26
 # <= --> is less than or equal to
-print('a' <= 'b')
+print("a" <= "b")
