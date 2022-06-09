@@ -1,5 +1,4 @@
 # Files and File Writing
-
 # Open a file
 myFile = open("scores.txt", "w")
 
@@ -17,7 +16,8 @@ myFile.close()
 
 # Read the file
 myFile = open("scores.txt", "r")
-print("Reading..." + myFile.read(10))
-myFile.close()
+print("Reading...\n" + myFile.read(10))
+# myFile.close()
+myFile.seek(0)
 myFile = open("scores.txt", "r")
-print("Reading again" + myFile.read(10))
+print("Reading again...\n" + myFile.read(10))

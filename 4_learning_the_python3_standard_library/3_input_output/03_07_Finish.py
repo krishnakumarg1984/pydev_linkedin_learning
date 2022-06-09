@@ -2,25 +2,24 @@
 import zipfile
 
 # Open and List
-zip = zipfile.ZipFile('Archive.zip', 'r')
-print(zip.namelist())
+zipped_file = zipfile.ZipFile("Archive.zip", "r")
+print(zipped_file.namelist())
 
 # Metadata in the zip folder
-for meta in zip.infolist():
+for meta in zipped_file.infolist():
     print(meta)
 
-info = zip.getinfo("purchased.txt")
+info = zipped_file.getinfo("purchased.txt")
 print(info)
 
 # Access to files in zip folder
-print(zip.read("wishlist.txt"))
-with zip.open('wishlist.txt') as f:
+print(zipped_file.read("wishlist.txt"))
+with zipped_file.open("wishlist.txt") as f:
     print(f.read())
 
 # Extracting files
-#zip.extract("purchased.txt")
-zip.extractall()
+# zipped_file.extract("purchased.txt")
+zipped_file.extractall()
 
 # Closing the zip
-zip.close()
-
+zipped_file.close()
