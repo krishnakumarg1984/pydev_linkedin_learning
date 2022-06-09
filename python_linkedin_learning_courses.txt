@@ -1,0 +1,138 @@
+First Look: Python 3.9                                                0.26
+Python Tools: Jupyter vs. PyCharm                                     0.29
+Advanced Core Python Code Challenges                                  0.30
+Test Automation with Python: 1 Introduction to Automated Testing      0.30
+Processing Text with Python Essential Training                        0.33
+Python vs. JavaScript for Development                                 0.33
+Text Analytics and Predictions with Python Essential Training         0.35
+Learning Python Generators                                            0.37
+Python 3.10 First Look                                                0.38
+Python vs. R for Data Science                                         0.39
+Transitioning from Java to Python                                     0.42
+Learning Python Generators                                            0.44
+Reinforcement Learning Foundations                                    0.45
+Python Data Science Mistakes to Avoid                                 0.47
+Python for Data Science Tips, Tricks, & Techniques                    0.47
+Managing Python Projects                                              0.48
+Python Code Challenges                                                0.48
+Data Cleaning in Python Essential Training                            0.49
+Machine Learning with Python: k-Means Clustering                      0.49
+Python 3 SSH Network Automation Quick Start                           0.50
+Efficient Python Production Workflows                                 0.54
+Python: Decorators                                                    0.55
+8 Things You Must Know in Python                                      0.56
+Building Tools with Python                                            0.56
+Nail Your Python Interview                                            0.56
+PyTorch Essential Training: Deep Learning                             0.56
+Using Python for Automation                                           0.56
+Python Data Structures: Dictionaries                                  0.57
+Data Visualization in Python with Dash                                0.58
+Machine Learning and AI Foundations: Recommendations                  0.58
+Python NAPALM Network Automation                                      0.58
+Transfer Learning for Images Using PyTorch: Essential Training        0.58
+Visual Studio Code for Python Developers                              0.59
+Advanced Pandas                                                       1.02
+Async Python Foundations: Applied Concepts                            1.03
+Building the Classic Snake Game with Python                           1.03
+Machine Learning and AI Foundations: Value Estimations                1.04
+Python Object-Oriented Programming for Java Developers                1.07
+Python for Students                                                   1.08
+Algorithmic Thinking with Python: Foundations                         1.11
+Effective Serialization with Python                                   1.12
+Machine Learning with Python: Decision Trees                          1.13
+Python Network Programmability: Scaling Scripts                       1.13
+CircuitPython: Connecting a Robot Cat to the Internet                 1.14
+Python Data Structures: Trees                                         1.16
+Artificial Intelligence Foundations: Machine Learning                 1.17
+Neural Networks and Convolutional Neural Networks Essential Training  1.19
+Python for Data Visualization                                         1.21
+Python: Working with Predictive Analytics                             1.22
+Using Python with Excel                                               1.22
+Faster Python Services                                                1.23
+Python 2d Lists: A Project-based Approach                             1.23
+Web Scraping with Python                                              1.23
+Building Deep Learning Applications with Keras 2.0                    1.24
+Faster pandas                                                         1.24
+Python Data Structures: Stacks, Queues, and Deques                    1.24
+Python: Advanced Design Patterns                                      1.24
+Data Ingestion with Python                                            1.25
+Deep Learning: Face Recognition                                       1.25
+Fundamentals of Dynamic Programming                                   1.25
+Python Automation and Testing                                         1.27
+Supervised Learning Essential Training                                1.28
+Unit Testing in Python                                                1.29
+Python Data Structures: Linked Lists                                  1.30
+Python Functions for Data Science                                     1.30
+Python Projects                                                       1.30
+Secure Coding in Python                                               1.31
+Python Quick Start                                                    1.36
+Python Data Structures: Sets and Frozen Sets                          1.37
+Building a Recommendation System with Python Machine Learning & AI    1.38
+Python: XML, JSON, and the Web                                        1.38
+Using SQL with Python                                                 1.39
+Python: Working with Files                                            1.42
+Deep Learning: Image Recognition                                      1.43
+Machine Learning with Python: Foundations                             1.43
+Programming Foundations: Design Patterns                              1.44
+Python for Marketing                                                  1.44
+Functional Programming with Python                                    1.45
+Learning CircuitPython with Circuit Playground Express                1.45
+Training Neural Networks in Python                                    1.45
+Learning SOLID Programming Principles                                 1.49
+Test Automation with Python: 10 Additional Appium Modes and Features  1.49
+Scripting for Testers                                                 1.50
+Code Clinic: Python                                                   1.51
+Python: Design Patterns (2015)                                        1.52
+Test Automation with Python: 8 Additional Appium Features             1.53
+Python for JavaScript Developers                                      1.57
+More Python Tips, Tricks, and Techniques for Data Science             1.58
+Python for Engineers and Scientists                                   1.58
+Unit Testing and Test Driven Development in Python                    2.00
+pandas for Data Science                                               2.03
+Faster Python Code                                                    2.04
+Programming Foundations: Beyond the Fundamentals                      2.04
+Rapid Application Development with Python                             2.06
+Python Projects (2017)                                                2.10
+Python: Recursion                                                     2.10
+Python Parallel and Concurrent Programming Part 1                     2.11
+Python: Design Patterns                                               2.12
+Advanced NLP with Python for Machine Learning                         2.14
+Programming Foundations: Fundamentals                                 2.14
+pandas Essential Training                                             2.14
+Python Essential Libraries                                            2.15
+Python Data Structures and Algorithms                                 2.16
+Transitioning from C# to Python                                       2.16
+Python Standard Library Essential Training                            2.18
+Python Parallel and Concurrent Programming Part 2                     2.19
+Python: Programming Efficiently                                       2.19
+Programming Foundations: Data Structures                              2.20
+Data Science Foundations: Python Scientific Stack                     2.21
+Applied Machine Learning: Algorithms                                  2.24
+Learning Python with PyCharm                                          2.25
+Applied Machine Learning: Feature Engineering                         2.26
+Advanced Python                                                       2.27
+Learning Python (2020)                                                2.27
+Learning Python with PyCharm (2017)                                   2.30
+Python Data Analysis                                                  2.30
+OpenCV for Python Developers                                          2.35
+Applied Machine Learning: Foundations                                 2.38
+Programming Foundations: Object-Oriented Design                       2.40
+Migrating from Python 2.7 to Python 3                                 2.45
+Python Statistics Essential Training                                  2.58
+Data Science Foundations: Data Mining in Python                       3.03
+Learning Python                                                       3.10
+Programming Foundations: Discrete Mathematics                         3.10
+Test Automation with Python: 2 Python for Testers                     3.14
+Test Automation with Python: 9 Designing Your Test Suite              3.23
+Data Science Foundations: Python Scientific Stack (2017)              3.34
+NumPy Data Science Essential Training                                 3.46
+NLP with Python for Machine Learning Essential Training               4.14
+Advanced Python: Working with Databases                               4.51
+Python GUI Development with Tkinter                                   4.55
+Python Theory for Network Engineers                                   5.00
+Data Science Foundations: Fundamentals                                5.17
+Python for Security                                                   5.44
+Python for Data Science Essential Training Part 1                     6.02
+Python for Data Science Essential Training Part 2                     3.44
+Python: Using Community Code                                          8.12
+Building Recommender Systems with Machine Learning and AI             9.05
