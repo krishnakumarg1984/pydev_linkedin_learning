@@ -1,3 +1,4 @@
+Hands-On Data Science: 3 Sales Analysis in Python                     0.27
 Python Tools: Jupyter vs. PyCharm                                     0.29
 Advanced Core Python Code Challenges                                  0.30
 Test Automation with Python: 1 Introduction to Automated Testing      0.30
@@ -17,6 +18,8 @@ Python Code Challenges                                                0.48
 Data Cleaning in Python Essential Training                            0.49
 Machine Learning with Python: k-Means Clustering                      0.49
 Python 3 SSH Network Automation Quick Start                           0.50
+Best Languages for Data Science                                       0.51
+Introducing Jupyter                                                   0.53
 Efficient Python Production Workflows                                 0.54
 Python: Decorators                                                    0.55
 8 Things You Must Know in Python                                      0.56
@@ -77,6 +80,7 @@ Python for Marketing                                                  1.44
 Functional Programming with Python                                    1.45
 Learning CircuitPython with Circuit Playground Express                1.45
 Training Neural Networks in Python                                    1.45
+Introduction to Data Science                                          1.48
 Learning SOLID Programming Principles                                 1.49
 Test Automation with Python: 10 Additional Appium Modes and Features  1.49
 Scripting for Testers                                                 1.50
@@ -119,6 +123,7 @@ Programming Foundations: Object-Oriented Design                       2.40
 Migrating from Python 2.7 to Python 3                                 2.45
 Python Statistics Essential Training                                  2.58
 Data Science Foundations: Data Mining in Python                       3.03
+Amazon Web Services Machine Learning Essential Training               3.07
 Learning Python                                                       3.10
 Programming Foundations: Discrete Mathematics                         3.10
 Test Automation with Python: 2 Python for Testers                     3.14
