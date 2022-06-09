@@ -1,5 +1,4 @@
 Hands-On Data Science: 3 Sales Analysis in Python                     0.27
-Python Tools: Jupyter vs. PyCharm                                     0.29
 Advanced Core Python Code Challenges                                  0.30
 Test Automation with Python: 1 Introduction to Automated Testing      0.30
 Processing Text with Python Essential Training                        0.33
@@ -145,3 +144,4 @@ Building Recommender Systems with Machine Learning and AI             9.05
 Completed
 ---------
 First Look: Python 3.9                                                0.26
+Python Tools: Jupyter vs. PyCharm                                     0.29
