@@ -1,0 +1,14 @@
+%debug in a jupyter notebook
+%time (for longer running method calls)
+%timeit for loops
+lineprofiler and memoryprofiler extensions
+n, c etc with ipdb
+from IPython.core.debugger
+
+nbextensions package
+jupyter notebook extension marketplace
+https://blog.reviewnb.com/
+https://nbdime.readthedocs.io/en/latest/
+https://github.com/jupyterlab/jupyterlab-git
+https://www.reviewnb.com/
+
