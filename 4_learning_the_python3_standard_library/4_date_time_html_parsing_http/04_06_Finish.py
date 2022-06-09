@@ -16,9 +16,11 @@ print("Fill")
 print()
 print(textwrap.fill(dedent_text, width=50))
 print(textwrap.fill(dedent_text, width=100))
+print(textwrap.fill(dedent_text, width=200))
 
 print("Controlling Indent")
 print(textwrap.fill(dedent_text, initial_indent="   ", subsequent_indent="          "))
+# print(textwrap.fill(dedent_text, initial_indent="   ", subsequent_indent=""))
 
 print("Shortening Text")
 short = textwrap.shorten("LinkedIn.com is great!", width=15, placeholder="...")
