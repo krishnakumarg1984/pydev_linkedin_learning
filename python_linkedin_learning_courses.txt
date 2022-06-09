@@ -1,4 +1,3 @@
-First Look: Python 3.9                                                0.26
 Python Tools: Jupyter vs. PyCharm                                     0.29
 Advanced Core Python Code Challenges                                  0.30
 Test Automation with Python: 1 Introduction to Automated Testing      0.30
@@ -136,3 +135,8 @@ Python for Data Science Essential Training Part 1                     6.02
 Python for Data Science Essential Training Part 2                     3.44
 Python: Using Community Code                                          8.12
 Building Recommender Systems with Machine Learning and AI             9.05
+--------------------------------------------------------------------------
+
+Completed
+---------
+First Look: Python 3.9                                                0.26
