@@ -1,0 +1,34 @@
+---
+title: "02_03_Data_cleaning_and_manipulation_R"
+output: html_notebook
+---
+
+```{r}
+exam_grades <- read.csv("exam_grades.csv")
+```
+
+```{r}
+exam_grades
+```
+
+```{r}
+library(dplyr)
+library(tidyr)
+```
+
+```{r}
+exam_grades$grade <- exam_grades$grade %>% replace_na(0)
+```
+
+```{r}
+exam_grades
+```
+
+```{r}
+exam_grades %>% group_by(exam) %>% summarise(mean_grade = mean(grade))
+```
+
+```{r}
+exam_grades[exam_grades$grade >= 70,]
+```
+

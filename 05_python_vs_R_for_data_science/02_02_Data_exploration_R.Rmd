@@ -1,0 +1,29 @@
+---
+title: "02_02_Data_exploration_R"
+output: html_notebook
+---
+
+```{r}
+exam_grades <- read.csv("exam_grades.csv")
+```
+
+```{r}
+exam_grades
+```
+
+```{r}
+dim(exam_grades)
+```
+
+```{r}
+length(unique(exam_grades$student_id))
+```
+
+```{r}
+unique(exam_grades$student_id)
+```
+
+```{r}
+sum(is.na(exam_grades$grade))
+```
+

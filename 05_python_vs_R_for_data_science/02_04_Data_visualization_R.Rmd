@@ -1,0 +1,30 @@
+---
+title: "02_04_Data_visualization_R"
+output: html_notebook
+---
+
+```{r}
+exam_grades <- read.csv("exam_grades.csv")
+```
+
+```{r}
+exam_grades
+```
+
+```{r}
+library(dplyr)
+library(tidyr)
+```
+
+```{r}
+exam_grades$grade <- exam_grades$grade %>% replace_na(0)
+```
+
+```{r}
+exam_grades
+```
+
+```{r}
+hist(exam_grades$grade, xlab="Grade", main="Distribution of Exam Grades")
+```
+
