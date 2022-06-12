@@ -11,7 +11,6 @@
 #     language: python
 #     name: python3
 # ---
-
 # import relevant libraries and modules
 import random
 
@@ -21,9 +20,11 @@ def getWidth():
     """Generate width randomly (in feet) and return"""
     return random.randint(3, 11)
 
+
 def getLength():
     """Get length (in feet) and return"""
     return random.randint(5, 16)
+
 
 def rug_dim():
     """Select dimensions for rug (in feet) and display"""
@@ -31,8 +32,7 @@ def rug_dim():
     length = getLength()
     print("width of rug:", width)
     print("length of rug:", length)
-    
+
+
 rug_dim()
 # -
-
-

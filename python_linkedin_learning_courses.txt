@@ -4,11 +4,10 @@ Advanced Core Python Code Challenges                                  0.30
 Processing Text with Python Essential Training                        0.33
 Text Analytics and Predictions with Python Essential Training         0.35
 Python 3.10 First Look                                                0.38
+Reinforcement Learning Foundations                                    0.45
 
 To do next
 ----------
-Reinforcement Learning Foundations                                    0.45
-Python Data Science Mistakes to Avoid                                 0.47
 Python for Data Science Tips, Tricks, & Techniques                    0.47
 Managing Python Projects                                              0.48
 Python Code Challenges                                                0.48
@@ -145,6 +144,7 @@ First Look: Python 3.9                                                0.26
 Python Tools: Jupyter vs. PyCharm                                     0.29
 Python vs. JavaScript for Development                                 0.33
 Python vs. R for Data Science                                         0.39
+Python Data Science Mistakes to Avoid                                 0.47
 
 Probably not interested
 -----------------------

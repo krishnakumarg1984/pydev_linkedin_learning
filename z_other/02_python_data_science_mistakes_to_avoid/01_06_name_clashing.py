@@ -11,13 +11,10 @@
 #     language: python
 #     name: python3
 # ---
-
 # create a list containing 0,1,2,3,4 & save in variable
 listA = [0, 1, 2, 3, 4]
 
-listA
+print(listA)
 
 # create a new empty list
-list()
-
-
+# list()

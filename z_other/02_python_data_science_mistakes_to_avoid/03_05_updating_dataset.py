@@ -11,26 +11,23 @@
 #     language: python
 #     name: python3
 # ---
-
 # import relevant libraries
 import pandas as pd
 
-# read grades.csv into a pandas dataframe 
+# read grades.csv into a pandas dataframe
 # and save the dataframe in a variable named grades
-grades = pd.read_csv('grades.csv')
+grades = pd.read_csv("grades.csv")
 
 # display grades
-grades
+print(grades)
 
-grades.drop(columns={'student_id'})
+grades.drop(columns={"student_id"})
 
 # display grades
-grades
+print(grades)
 
 # drop student_id column and update grades dataframe
-grades = grades.drop(columns={'student_id'})
+grades = grades.drop(columns={"student_id"})
 
 # display grades
-grades
-
-
+print(grades)

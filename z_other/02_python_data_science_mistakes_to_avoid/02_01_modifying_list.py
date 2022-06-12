@@ -11,15 +11,16 @@
 #     language: python
 #     name: python3
 # ---
-
 # initialize nums as a list containing 0,1,2,3,4,5
 nums = [0, 1, 2, 3, 4, 5]
-nums
+print(nums)
 
 
 def is_even(n):
-    """Takes in an integer n. 
-    Returns True if n is even; returns False otherwise."""
+    """
+    Takes in an integer n.
+    Returns True if n is even; returns False otherwise.
+    """
     return (n % 2) == 0
 
 
@@ -32,11 +33,11 @@ is_even(8)
 # use list comprehension to identify items from nums that are not even
 # add them to a new list named not_even_nums
 not_even_nums = [item for item in nums if not is_even(item)]
-not_even_nums
+
+print(not_even_nums)
 
 # use list comprehension to identify items from nums that are even
 # add them to a new list named even_nums
 even_nums = [item for item in nums if is_even(item)]
-even_nums
 
-
+print(even_nums)
