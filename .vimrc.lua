@@ -1,3 +1,5 @@
+-- vim: foldmethod=marker:foldlevel=0:
+
 vim.cmd [[
 let g:ripple_repls = {}
 let g:ripple_repls["python"] = {
@@ -9,7 +11,6 @@ let g:ripple_repls["python"] = {
     \ }
 ]]
 
--- vim: foldmethod=marker:foldlevel=0:
 
 local null_ls = require "null-ls"
 local formatting = null_ls.builtins.formatting
